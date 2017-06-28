@@ -5,7 +5,6 @@ Author: Your Name
 Developer @GA in NYC
 */
 
-
 /******************************************
 /* SETUP
 /*******************************************/
@@ -62,18 +61,143 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
+  align-self: center;
 
 }
 
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
+  height: 400px;
+}
+
+h1 {
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 900;
+  text-align: left;
+  color: white;
+  margin: 0 50px;
+}
+
+h2 {
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+nav {
+  font-family: "Open Sans"
+  font-size: 14px;
+  font-weight: 900;
+  border-radius: 5px;
+  text-align: center;
+  color: #033048;
+  background-color: #f9e42e;
+  width: 100px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+main {
+  background-color: #f0efef;
+  height: 400px;
+}
+
+h3 {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: bold;
+  color: #033048;
+  margin: 0 50px;
+}
+
+p {
+  font-family: "Open Sans;";
+  font-size: 13px;
+  font-weight: lighter;
+  margin: 0 50px;
+  color: #606161;
+}
+
+ul {
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 200;
+  margin: 50px;
+  color: #606161;
+}
+
+.testimonial {
+   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 200px;
+  text-align: center;
+  color: white;
+  padding: 30px 100px;
+}
+
+.quote {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: italic;
+  margin: 0 auto;
+ }
+
+#quote-author {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  }
+
+.sign-up {
+  background-color: #f9e42e;
+  text-align: center;
+  height: 60px;
+}
+
+button {
+  font-family: "Open Sans";
+  font-weight: 900;
+  border-radius: 5px;
+  background-color: #033048;
+  color: white;
+  padding: 10px 30px;
+  font-size: 12px;
+  margin: 10px auto;
 }
 
 footer {
-
+  text-align: center;
+  background-color: #121212;
 }
 
+h4 {
+  font-family: "Open Sans";
+  font-weight: 900;
+  font-size: 24px;
+  color: #f9e42e;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#twitter-logo {
+  padding: 20px;
+}
+
+#fb-logo {
+  padding: 20px;
+}
+
+h5 {
+  color: white;
+  padding-bottom: 10px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
