@@ -60,9 +60,8 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
-  align-self: center;
-
+  height: 100%;
+  
 }
 
 header {
