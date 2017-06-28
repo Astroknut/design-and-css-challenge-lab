@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Landing Page
+Client: Relaxr
+Author: Charles Barrett
+Developer @GA in DEN
 */
 
 /******************************************
@@ -187,11 +187,15 @@ h4 {
 }
 
 #twitter-logo {
-  padding: 20px;
+  padding: 10px;
+  height: 40px;
+  width: auto;
 }
 
 #fb-logo {
-  padding: 20px;
+  padding: 10px;
+  height: 40px;
+  width: auto;
 }
 
 h5 {
